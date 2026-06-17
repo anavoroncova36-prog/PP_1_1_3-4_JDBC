@@ -13,13 +13,13 @@ public class Main {
 
 
         userService.saveUser("Anna", "Vorobeva", (byte) 23);
-        System.out.println("User с именем — Anna добавлен в базу данных");
+
         userService.saveUser("Angelina", "Beregovaya", (byte) 21);
-        System.out.println("User с именем — Angelina добавлен в базу данных");
+
         userService.saveUser("Egor", "Mezhin", (byte) 24);
-        System.out.println("User с именем — Egor добавлен в базу данных");
+
         userService.saveUser("Yana", "Seledtsova", (byte) 21);
-        System.out.println("User с именем — Yana добавлен в базу данных");
+
 
         List<User> usersList = userService.getAllUsers();
         for(User user: usersList){
